@@ -68,9 +68,9 @@ function randomCard() {
 function showCard(card, actPlayer) {
     if (actPlayer['score'] < 21) {
         let cardPic = document.createElement('img');
-        cardPic.src = `/static/blackjack_assets/images/${card}.png`;
+        cardPic.src = `static/blackjack_assets/images/${card}.png`;
         document.querySelector(actPlayer['div']).appendChild(cardPic);
-        let soundCard = new Audio('/static/blackjack_assets/sounds/swish.m4a');
+        let soundCard = new Audio('static/blackjack_assets/sounds/swish.m4a');
         soundCard.play();
         // randomCard();
     }
@@ -144,8 +144,8 @@ async function stand_fnc() {
     }
 }
 
-let winSound = new Audio('/static/blackjack_assets/sounds/cash.mp3')
-let lostSound = new Audio('/static/blackjack_assets/sounds/aww.mp3')
+let winSound = new Audio('static/blackjack_assets/sounds/cash.mp3')
+let lostSound = new Audio('static/blackjack_assets/sounds/aww.mp3')
 
 function winner() {
     if (yourDetails['score'] <= 21) {
