@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Game</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome To BlackJack Game</h1>
+        <h2> <span id="result">Lets Play</span></h2>
+        <div class="first-cont">
+            <div id="your-ct" class="card-ct">
+                <h2>You: <span id="YourScore">0</span></h2>
+            </div>
+            <div id="dealer-ct" class="card-ct">
+                <h2>Dealer: <span id="DealerScore">0</span></h2>
+            </div>
+        </div>
+        <div class="second-ct">
+            <button id="hit-btn" class="btn btn-primary">Hit</button>
+            <button id="stand-btn" class="btn btn-warning">Stand</button>
+            <button id="deal-btn" class="btn btn-danger">Deal</button>
+        </div>
+        <div class="third-ct">
+            <table>
+                <tr>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Draws</th>
+                </tr>
+                <tr>
+                    <td id="wins">0</td>
+                    <td id="losses">0</td>
+                    <td id="draw">0</td>
+                </tr>
+
+            </table>
+
+
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>
