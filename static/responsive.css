@@ -1,0 +1,57 @@
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: lightblue;
+    }
+
+    .container {
+        /* display: flex; */
+        flex-direction: column;
+        /* border: 2px solid black; */
+        width: 97%;
+        margin: 2px auto;
+        padding: 9px;
+        text-align: center;
+        background-color: rgba(77, 233, 181, 0.623);
+        height: 1000px;
+    }
+    .card-ct {
+      /* display: flex; */
+      flex-wrap: wrap;
+      width: 100%;
+      height: 454px;
+      border: 2px solid black;
+      background-color: green;
+  }
+  }
+
+@media only screen and (max-width: 500px) {
+    body {
+      background-color: lightblue;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+        /* display: flex; */
+        flex-direction: column;
+        /* border: 2px solid black; */
+        width: 97%;
+        margin: 2px auto;
+        padding: 0px;
+        text-align: center;
+        background-color: rgba(189, 186, 10, 0.623);
+        height: 840px;
+    }
+    .card-ct img {
+      width: 65px;
+      padding: 0 10px;
+  }
+  .card-ct {
+    /* display: flex; */
+    flex-wrap: wrap;
+    width: 100%;
+    height: 314px;
+    border: 2px solid black;
+    background-color: green;
+}
+  }
