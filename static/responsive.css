@@ -43,8 +43,8 @@
         height: 840px;
     }
     .card-ct img {
-      width: 90px;
-      padding: 10 1px;
+      width: 75px;
+      padding: 1px 4px;
   }
   .card-ct {
     /* display: flex; */
